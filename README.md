@@ -27,8 +27,7 @@ https://www.saucedemo.com/
 
 SauceDemo is a sample e-commerce application provided by Sauce Labs and is commonly used for demonstrating UI automation and testing.
 
-**Getting Started
-**
+**Getting Started**
 
 Prerequisites
 
@@ -55,8 +54,8 @@ Install Playwright browsers:
 
 npx playwright install
 
-**Running Tests
-**
+**Running Tests**
+
 Run all tests:
 
 npx playwright test
@@ -91,3 +90,62 @@ Test execution time
 Screenshots
 Videos
 Traces
+
+**End-to-End Test Flow**
+
+A typical end-to-end scenario follows this flow:
+
+Login
+  ↓
+Products
+  ↓
+Select Product
+  ↓
+Add to Cart
+  ↓
+View Cart
+  ↓
+Checkout
+  ↓
+Enter Customer Details
+  ↓
+Complete Order
+  ↓
+Verify Order Confirmation
+
+**Testing Goals**
+
+The primary goals of this framework are to demonstrate:
+
+End-to-end UI automation
+TypeScript-based test development
+Page Object Model
+Reusable automation components
+Assertions and validations
+Cross-browser testing
+Test reporting
+Maintainable test architecture
+
+**CI/CD**
+
+The framework can be integrated with CI/CD tools such as GitHub Actions to automatically execute tests when changes are pushed to the repository or when a pull request is created.
+
+**Future Enhancements**
+ Add GitHub Actions CI/CD pipeline
+ Add cross-browser testing
+ Add API testing
+ Add environment configuration
+ Improve test data management
+ Add additional SauceDemo user scenarios
+ Add screenshots and traces for failures
+ Enhance test reporting
+ 
+**Author**
+
+Yogita
+
+GitHub: https://github.com/Yogita15
+
+**License**
+
+This project is created for learning, demonstration, and test automation purposes.
