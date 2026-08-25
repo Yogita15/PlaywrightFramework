@@ -55,12 +55,15 @@ Prerequisites
 Install the following:
 
 Node.js
+
 npm
+
 Git
 
 Verify the installation:
 
 node --version
+
 npm --version
 
 Clone the Repository:
@@ -97,6 +100,7 @@ npx playwright test --ui
 After test execution, open the Playwright HTML report:
 npx playwright show-report
 
+
 The report provides details about:
 
 Passed tests
@@ -105,28 +109,6 @@ Test execution time
 Screenshots
 Videos
 Traces
-
-**End-to-End Test Flow**
-
-A typical end-to-end scenario follows this flow:
-
-Login
-  ↓
-Products
-  ↓
-Select Product
-  ↓
-Add to Cart
-  ↓
-View Cart
-  ↓
-Checkout
-  ↓
-Enter Customer Details
-  ↓
-Complete Order
-  ↓
-Verify Order Confirmation
 
 **Testing Goals**
 
