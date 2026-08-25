@@ -61,7 +61,8 @@ git clone https://github.com/Yogita15/PlaywrightFramework.git
 Navigate to the project:
 
 cd PlaywrightFramework
-Install Dependencies
+
+Install Dependencies :
 npm install
 
 Install Playwright browsers:
