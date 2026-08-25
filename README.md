@@ -46,6 +46,12 @@ https://www.saucedemo.com/
 
 SauceDemo is a sample e-commerce application provided by Sauce Labs and is commonly used for demonstrating UI automation and testing.
 
+**Page Object Model**
+
+The framework uses the Page Object Model (POM) to separate page-specific locators and actions from test cases.
+
+This approach makes the tests easier to maintain and reduces duplication.
+
 **Getting Started**
 
 Prerequisites
@@ -114,38 +120,6 @@ Screenshots
 Videos
 
 Traces
-
-**Page Object Model**
-
-The framework uses the Page Object Model (POM) to separate page-specific locators and actions from test cases.
-
-For example:
-
-LoginPage
-    │
-    ├── usernameInput
-    ├── passwordInput
-    ├── loginButton
-    │
-    └── login()
-
-ProductsPage
-    │
-    ├── productList
-    ├── addToCart()
-
-CartPage
-    │
-    ├── cartItems
-    ├── checkout()
-
-CheckoutPage
-    │
-    ├── customerDetails
-    ├── placeOrder()
-    └── verifyOrder()
-
-This approach makes the tests easier to maintain and reduces duplication.
 
 **Testing Goals**
 
