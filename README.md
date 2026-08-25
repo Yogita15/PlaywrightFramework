@@ -9,12 +9,19 @@ This project demonstrates end-to-end web application automation using Playwright
 The framework automates key user journeys in the SauceDemo application, including:
 
 User login
+
 Product browsing
+
 Product selection
+
 Adding products to the cart
+
 Cart validation
+
 Checkout
+
 Order completion
+
 Logout
 
 The framework follows maintainable automation practices such as the Page Object Model (POM) and reusable test components.
