@@ -66,6 +66,8 @@ node --version
 
 npm --version
 
+git --version
+
 Clone the Repository:
 git clone https://github.com/Yogita15/PlaywrightFramework.git
 
