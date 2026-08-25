@@ -129,16 +129,6 @@ Maintainable test architecture
 **CI/CD**
 
 The framework can be integrated with CI/CD tools such as GitHub Actions to automatically execute tests when changes are pushed to the repository or when a pull request is created.
-
-**Future Enhancements**
- Add GitHub Actions CI/CD pipeline
- Add cross-browser testing
- Add API testing
- Add environment configuration
- Improve test data management
- Add additional SauceDemo user scenarios
- Add screenshots and traces for failures
- Enhance test reporting
  
 **Author**
 
