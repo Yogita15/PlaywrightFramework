@@ -24,8 +24,6 @@ Order completion
 
 Logout
 
-The framework follows maintainable automation practices such as the Page Object Model (POM) and reusable test components.
-
 **Tech Stack**
 
 Playwright :	Browser automation and E2E testing
@@ -116,6 +114,38 @@ Screenshots
 Videos
 
 Traces
+
+**Page Object Model**
+
+The framework uses the Page Object Model (POM) to separate page-specific locators and actions from test cases.
+
+For example:
+
+LoginPage
+    │
+    ├── usernameInput
+    ├── passwordInput
+    ├── loginButton
+    │
+    └── login()
+
+ProductsPage
+    │
+    ├── productList
+    ├── addToCart()
+
+CartPage
+    │
+    ├── cartItems
+    ├── checkout()
+
+CheckoutPage
+    │
+    ├── customerDetails
+    ├── placeOrder()
+    └── verifyOrder()
+
+This approach makes the tests easier to maintain and reduces duplication.
 
 **Testing Goals**
 
