@@ -104,10 +104,15 @@ npx playwright show-report
 The report provides details about:
 
 Passed tests
+
 Failed tests
+
 Test execution time
+
 Screenshots
+
 Videos
+
 Traces
 
 **Testing Goals**
@@ -115,12 +120,19 @@ Traces
 The primary goals of this framework are to demonstrate:
 
 End-to-end UI automation
+
 TypeScript-based test development
+
 Page Object Model
+
 Reusable automation components
+
 Assertions and validations
+
 Cross-browser testing
+
 Test reporting
+
 Maintainable test architecture
 
 **CI/CD**
