@@ -24,6 +24,14 @@ Order completion
 
 Logout
 
+**Application Under Test**
+
+SauceDemo
+
+https://www.saucedemo.com/
+
+SauceDemo is a sample e-commerce application provided by Sauce Labs and is commonly used for demonstrating UI automation and testing.
+
 **Tech Stack**
 
 Playwright :	Browser automation and E2E testing
@@ -37,14 +45,6 @@ npm	: Package management
 Git	: Version control
 
 GitHub :	Source code repository
-
-**Application Under Test**
-
-SauceDemo
-
-https://www.saucedemo.com/
-
-SauceDemo is a sample e-commerce application provided by Sauce Labs and is commonly used for demonstrating UI automation and testing.
 
 **Page Object Model**
 
