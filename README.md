@@ -55,46 +55,39 @@ Verify the installation:
 
 node --version
 npm --version
-Clone the Repository
+
+Clone the Repository:
 git clone https://github.com/Yogita15/PlaywrightFramework.git
 
 Navigate to the project:
-
 cd PlaywrightFramework
 
 Install Dependencies :
 npm install
 
 Install Playwright browsers:
-
 npx playwright install
 
 **Running Tests**
 
 Run all tests:
-
 npx playwright test
 
 Run tests in headed mode:
-
 npx playwright test --headed
 
 Run tests in a specific browser:
-
 npx playwright test --project=chromium
 
 Run a specific test file:
-
 npx playwright test tests/login.spec.ts
 
 Run tests with the Playwright UI:
-
 npx playwright test --ui
 
 **Test Reports**
 
 After test execution, open the Playwright HTML report:
-
 npx playwright show-report
 
 The report provides details about:
