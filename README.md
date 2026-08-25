@@ -20,11 +20,17 @@ Logout
 The framework follows maintainable automation practices such as the Page Object Model (POM) and reusable test components.
 
 **Tech Stack**
+
 Playwright :	Browser automation and E2E testing
+
 TypeScript : Test development
+
 Node.js	: Runtime environment
+
 npm	: Package management
+
 Git	: Version control
+
 GitHub :	Source code repository
 
 **Application Under Test**
