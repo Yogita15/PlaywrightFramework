@@ -52,9 +52,7 @@ The framework uses the Page Object Model (POM) to separate page-specific locator
 
 This approach makes the tests easier to maintain and reduces duplication.
 
-**Getting Started**
-
-Prerequisites
+**Pre-requisites**
 
 Install the following:
 
