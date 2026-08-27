@@ -141,7 +141,7 @@ Maintainable test architecture
 
 **CI/CD**
 
-The framework can be integrated with CI/CD tools such as GitHub Actions to automatically execute tests when changes are pushed to the repository or when a pull request is created.
+The framework is integrated with CI/CD tools such as GitHub Actions to automatically execute tests when changes are pushed to the repository or when a pull request is created.
  
 **Author**
 
