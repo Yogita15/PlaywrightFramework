@@ -67,7 +67,7 @@ test('Verify Checkout Overview Item Total', async ({page}) =>
     expect(calculatedTotal).toBe(itemTotal);
 })
 
-test.only('Verify Checkout Overview Total', async ({page}) =>
+test('Verify Checkout Overview Total', async ({page}) =>
 {
     const itemTotal = await checkoutOverviewPage.getItemTotal();
     const tax = await checkoutOverviewPage.getTax();
@@ -76,7 +76,7 @@ test.only('Verify Checkout Overview Total', async ({page}) =>
     expect(calculatedTotalWithTax).toBe(total);
 })
 
-test.only('Verify Checkout Overview Finish Button Navigation', async ({page}) =>
+test('Verify Checkout Overview Finish Button Navigation', async ({page}) =>
 {
     await checkoutOverviewPage.clickFinishButton();
     await expect(page).toHaveURL('https://www.saucedemo.com/checkout-complete.html');

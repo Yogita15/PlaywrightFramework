@@ -58,7 +58,7 @@ test('Verify Cancel Button Functionality', async ({ page }) =>
     await expect(page).toHaveURL(/cart.html/);
 })
 
-test.only('Verify Error Message for Empty Checkout Information', async ({ page }) => 
+test('Verify Error Message for Empty Checkout Information', async ({ page }) => 
 {
     await checkoutPage.clickContinueButton();
     const errorMessage = await checkoutPage.getErrorMessage();

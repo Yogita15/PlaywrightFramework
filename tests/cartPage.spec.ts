@@ -84,7 +84,7 @@ test('Verify Specific Products in Cart', async ({page}) =>
 
 })
 
-test.only('Verify Remove Product from Cart', async ({page}) =>
+test('Verify Remove Product from Cart', async ({page}) =>
 {
     await productPage.AddAllProductsToCart();
     await productPage.NavigateToCartPage(); 

@@ -46,7 +46,7 @@ test.beforeEach(async ({page}) =>
     await checkoutOverviewPage.clickFinishButton();
 })   
 
-test.only('Verify Final Page URL & Elements', async ({page}) => 
+test('Verify Final Page URL & Elements', async ({page}) => 
 {
     await expect(page).toHaveURL(/checkout-complete.html/);
 
@@ -56,13 +56,13 @@ test.only('Verify Final Page URL & Elements', async ({page}) =>
     await expect(finalPageElements.backHomeButton).toBeVisible();      
 });
 
-test.only('Verify Final Page Success Message', async ({page}) => 
+test('Verify Final Page Success Message', async ({page}) => 
 {
     const successMessage = await finalPage.getFinalPageSuccessMessage();
     expect(successMessage).toBe('Thank you for your order!');
 });
 
-test.only('Click Back Home Button', async ({page}) => 
+test('Click Back Home Button', async ({page}) => 
 {
     await finalPage.clickBackHomeButton();
     await expect(page).toHaveURL(/inventory.html/);

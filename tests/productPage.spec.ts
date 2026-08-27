@@ -59,7 +59,7 @@ test('Add specific product to cart', async ({page}) =>
 })
 
 //Filter products by option A to Z
-test.only('Filter products by option A to Z', async ({page}) => 
+test('Filter products by option A to Z', async ({page}) => 
 {           
     await productPage.FilterProductsByOptionAtoZ();
     const productNames = await productPage.GetAllProductNames();
@@ -68,7 +68,7 @@ test.only('Filter products by option A to Z', async ({page}) =>
 })  
 
 //Filter products by option Z to A
-test.only('Filter products by option Z to A', async ({page}) => 
+test('Filter products by option Z to A', async ({page}) => 
 {           
     await productPage.FilterProductsByOptionZtoA();
     const productNames = await productPage.GetAllProductNames();
@@ -77,7 +77,7 @@ test.only('Filter products by option Z to A', async ({page}) =>
 })
 
 //Filter products by option Low to High
-test.only('Filter products by option Low to High', async ({page}) => 
+test('Filter products by option Low to High', async ({page}) => 
 {           
     await productPage.FilterProductsByOptionLowToHigh();
     const productPrices = await productPage.GetAllProductPrices();
@@ -86,7 +86,7 @@ test.only('Filter products by option Low to High', async ({page}) =>
 })
 
 //Filter products by option High to Low
-test.only('Filter products by option High to Low', async ({page}) => 
+test('Filter products by option High to Low', async ({page}) => 
 {           
     await productPage.FilterProductsByOptionHighToLow();
     const productPrices = await productPage.GetAllProductPrices();      
